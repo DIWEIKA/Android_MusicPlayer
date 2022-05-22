@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/RelativeLayout1">
+
+        <TextView
+            android:id="@+id/txt_welcome"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="@dimen/img_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/img_margin"
+            android:text="@string/quit"/>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/list_song"
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+    </ListView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/RelativeLayout2">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_Play"
+        android:layout_centerInParent="true"
+        android:text="播放" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_Pause"
+        android:layout_toLeftOf="@id/btn_Play"
+        android:layout_centerVertical="true"
+        android:text="暂停" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_Stop"
+        android:layout_toRightOf="@id/btn_Play"
+        android:layout_centerVertical="true"
+        android:text="停止" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

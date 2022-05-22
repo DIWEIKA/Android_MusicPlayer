@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Music
+        Player</string>
+    <string name="uname_hint">请输入用户名</string>
+    <string name="pwd_hint">请输入密码</string>
+    <string name="login">登陆</string>
+    <string name="quit">返回</string>
+    <string name="title_activity_play">PlayActivity</string>
+</resources>
